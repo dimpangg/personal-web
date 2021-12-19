@@ -13,8 +13,9 @@
         <p
           class="text-xl leading-7 font-medium"
         >Currently studying at State Polytechnic of Jember. Interested in frontend development and want to build a career as a frontend developer.</p>
-        <div class="mt-4 flex gap-4">
+        <div class="mt-8 flex gap-4">
           <BtnSocial
+            url="https://www.instagram.com/dimpang_/"
             icon="insta"
             text="dimpang_"
             bg-color="group-hover:bg-red-500"
@@ -22,6 +23,7 @@
             text-color="text-red-500"
           />
           <BtnSocial
+            url="https://twitter.com/DimasPangestu"
             icon="twitter"
             text="DimasPangestu"
             bg-color="group-hover:bg-sky-500"
@@ -30,6 +32,7 @@
             width-hover
           />
           <BtnSocial
+            url="https://www.linkedin.com/in/dimpang/"
             icon="linkedin"
             text="dimpang"
             bg-color="group-hover:bg-blue-500"
@@ -37,6 +40,7 @@
             text-color="text-blue-500"
           />
           <BtnSocial
+            url="https://github.com/dimpangg"
             icon="github"
             text="dimpangg"
             bg-color="group-hover:bg-black"
@@ -44,6 +48,7 @@
             text-color="text-black"
           />
           <BtnSocial
+            url="https://gitlab.com/dimpang"
             icon="gitlab"
             text="dimpang"
             bg-color="group-hover:bg-amber-500"
