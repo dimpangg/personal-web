@@ -1,6 +1,6 @@
 <script setup>
 import Icons from "../atom/Icons.vue";
-import BtnNav from "../atom/BtnNav.vue";
+import BtnNav from "./BtnNav.vue";
 </script>
 
 <template>
@@ -18,8 +18,3 @@ import BtnNav from "../atom/BtnNav.vue";
         </div>
     </div>
 </template>
-
-
-
-<style>
-</style>

@@ -1,7 +1,7 @@
 <template>
   <header class="px-40 bg-gradient-to-br from-violet-100 via-white to-white">
     <Nav />
-    <div class="py-8 flex flex-row justify-between items-center">
+    <div class="py-20 flex flex-row justify-between items-center">
       <div class="basis-1/2">
         <h3 class="text-2xl">
           <span class="font-semibold">Hello</span> 👋
@@ -19,7 +19,7 @@
             icon="insta"
             text="dimpang_"
             bg-color="group-hover:bg-red-500"
-            shadow-color="hover:shadow-red-500/10"
+            shadow-color="hover:shadow-red-500/10 hover:w-40"
             text-color="text-red-500"
           />
           <BtnSocial
@@ -36,7 +36,7 @@
             icon="linkedin"
             text="dimpang"
             bg-color="group-hover:bg-blue-500"
-            shadow-color="hover:shadow-blue-500/10"
+            shadow-color="hover:shadow-blue-500/10 hover:w-40"
             text-color="text-blue-500"
           />
           <BtnSocial
@@ -44,17 +44,17 @@
             icon="github"
             text="dimpangg"
             bg-color="group-hover:bg-black"
-            shadow-color="hover:shadow-black/10"
+            shadow-color="hover:shadow-black/10 hover:w-40"
             text-color="text-black"
           />
-          <BtnSocial
+          <!-- <BtnSocial
             url="https://gitlab.com/dimpang"
             icon="gitlab"
             text="dimpang"
             bg-color="group-hover:bg-amber-500"
-            shadow-color="hover:shadow-amber-500/10"
+            shadow-color="hover:shadow-amber-500/10 hover:w-40"
             text-color="text-amber-500"
-          />
+          />-->
         </div>
       </div>
       <div class="basis-1/2 flex justify-end mr-14">
@@ -77,11 +77,51 @@
       <CardTech title="React Native" icon="react" />
     </div>
   </div>
+
+  <div
+    class="mt-20 mb-40 mx-40"
+    style="background: radial-gradient(circle closest-side, rgba(237,233,254,1) 25%, rgba(255,255,255,1) 100%);"
+  >
+    <h3 class="text-2xl text-slate-900 text-center mb-7">
+      <span class="font-semibold">Projects</span> 🛠️
+    </h3>
+    <div class="grid grid-cols-3 gap-8">
+      <CardProject
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aperiam minima, quia corrupti laborum veritatis dolores iste dicta ducimus voluptatem natus voluptatibus culpa qui maiores enim. Deserunt, placeat at."
+        title="Hi Valeeqa"
+      />
+      <CardProject
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aperiam minima, quia corrupti laborum veritatis dolores iste dicta ducimus voluptatem natus voluptatibus culpa qui maiores enim. Deserunt, placeat at."
+        title="Hi Valeeqa"
+      />
+      <CardProject
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aperiam minima, quia corrupti laborum veritatis dolores iste dicta ducimus voluptatem natus voluptatibus culpa qui maiores enim. Deserunt, placeat at."
+        title="Hi Valeeqa"
+      />
+      <CardProject
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aperiam minima, quia corrupti laborum veritatis dolores iste dicta ducimus voluptatem natus voluptatibus culpa qui maiores enim. Deserunt, placeat at."
+        title="Hi Valeeqa"
+      />
+      <CardProject
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aperiam minima, quia corrupti laborum veritatis dolores iste dicta ducimus voluptatem natus voluptatibus culpa qui maiores enim. Deserunt, placeat at."
+        title="Hi Valeeqa"
+      />
+      <CardProject
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aperiam minima, quia corrupti laborum veritatis dolores iste dicta ducimus voluptatem natus voluptatibus culpa qui maiores enim. Deserunt, placeat at."
+        title="Hi Valeeqa"
+      />
+    </div>
+  </div>
+
+  <div class="bg-violet-500 text-white py-4">
+    <h6 class="text-center">&copy; 2021 Dimas Pangestu</h6>
+  </div>
 </template>
 
 <script setup>
 import Nav from './components/molecules/Nav.vue';
 import CardTech from './components/molecules/CardTech.vue';
 import BtnSocial from './components/molecules/BtnSocial.vue';
+import CardProject from './components/molecules/CardProject.vue';
 </script>
 

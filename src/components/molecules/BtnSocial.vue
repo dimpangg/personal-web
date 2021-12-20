@@ -1,7 +1,7 @@
 <template>
     <a
         :href="url"
-        :class="`group inline-flex h-10 w-10 bg-transparent overflow-hidden items-center cursor-pointer float-left transition-all ease-out duration-300 hover:w-40 hover:bg-white hover:shadow-xl ${shadowColor} rounded-full`"
+        :class="`group inline-flex h-10 w-10 bg-transparent overflow-hidden items-center cursor-pointer float-left transition-all ease-out duration-300 hover:bg-white hover:shadow-xl ${shadowColor} rounded-full`"
         target="_blank"
         rel="noopener noreferrer"
     >
